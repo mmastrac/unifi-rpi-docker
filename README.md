@@ -4,6 +4,8 @@ This is a barebones Docker image for the UniFi Controller, allowing it to run on
 
 Because it takes _forever_ to build images on a real RPi, the docker images have been split into a 'base' image (containing `apt-get` packages over top of the base image) and the 'unifi' image.
 
+Between the base image and the unifi image, you'll need about 1GB free.
+
 ## Example Usage
 
 ```
