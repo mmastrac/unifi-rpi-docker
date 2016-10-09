@@ -23,5 +23,5 @@ docker run \
 
  * [rednut/docker-unifi-controller](https://github.com/rednut/docker-unifi-controller) (inspired this project and some of the scripts)
  * [UniFi's RPi instructions](https://help.ubnt.com/hc/en-us/articles/204910104-UniFi-Installing-the-Controller-software-on-Raspberry-Pi) (somewhat out-of-date)
- 
+ * [ryansch/docker-unifi-rpi](https://github.com/ryansch/docker-unifi-rpi) (an alternative unifi+docker+rpi)
  
