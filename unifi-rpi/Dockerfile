@@ -1,9 +1,8 @@
 FROM mmastrac/unifi-rpi-base
 ENV DEBIAN_FRONTEND noninteractive
-ADD UniFi.unix.zip snappy-java-1.1.2.6.jar /opt/
+ADD UniFi.unix.zip /opt/
 RUN cd /opt/ && \
 	unzip UniFi.unix.zip && \
-	mv /opt/snappy-java-1.1.2.6.jar /opt/UniFi/lib/snappy-* && \
 	ln -s /opt/UniFi /usr/lib/unifi
 
 EXPOSE 8443 8880 8080 27117
