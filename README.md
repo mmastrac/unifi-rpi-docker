@@ -15,10 +15,6 @@ docker run \
 	--name unifi --net=host -it mmastrac/unifi-rpi
 ```
 
-## Interesting Notes
-
- * [Snappy for Java](https://github.com/xerial/snappy-java) has a few interesting quirks to it, including [this bug](https://github.com/xerial/snappy-java/issues/147). It requires `readelf` to be present in the docker image. The version that ships with the controller doesn't actually work - we have to upgrade it to a more modern version.
-
 ## See Also
 
  * [rednut/docker-unifi-controller](https://github.com/rednut/docker-unifi-controller) (inspired this project and some of the scripts)
